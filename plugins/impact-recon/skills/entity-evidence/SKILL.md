@@ -15,6 +15,6 @@ Separate three questions when they arise: who the organization is, what funding 
 
 The current profile does not supply mission or program evidence. Do not label an organization as primarily focused on a population, or claim it runs an embedded program, from its name, NTEE, website URL, or grant rows alone. When the host assistant's web search is available, use the resolved name, EIN, and website as search leads; inspect an official program or mission page before making that classification. Cite the inspected page and its date or currentness. If web search is unavailable or the source remains unclear, mark the classification unverified.
 
-For current prospects, applications, investments, or staff, use native web search to inspect the funder's own current pages or primary transaction documents when available. Do not upgrade a historical grant edge or a Perplexity lead into a current claim. Keep what Azimuth observed separate from what the web source confirms.
+For current prospects, applications, investments, or staff, use native web search to inspect the funder's own current pages or primary transaction documents when available. Do not upgrade a historical grant edge or a search-summary lead into a current claim. Keep what Azimuth observed separate from what the web source confirms.
 
 The organization evidence card is a compact way to inspect the result. Keep the written answer useful if the card is unavailable, with the EIN, relevant years, available source links, and one material coverage limit.

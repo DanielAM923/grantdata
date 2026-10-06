@@ -5,7 +5,7 @@ description: Guide a nonprofit fundraising strategy conversation from its curren
 
 # Fundraising Strategy Process
 
-Read [shared evidence rules](../azimuth-research/references/evidence-rules.md). This is the portable research/decision method, not the Strategy v3 state engine. Use the focused issue, program-evidence, funder-review and research-packet skills for their stage artifacts.
+Read [shared evidence rules](../azimuth-research/references/evidence-rules.md). This is the portable research/decision method, not the Azimuth strategy application itself. Use the focused issue, program-evidence, funder-review and research-packet skills for their stage artifacts.
 
 Use the Azimuth fundraising method as a guide, not a required wizard. People may enter through a full strategy, landscape or benchmark, prospect expansion, program or project case, live proposal, or execution and refresh. Begin with the user's question. Identify the decision, organization, scope, market, time horizon, and useful output; carry forward what the user already decided. Ask a focused question only when the answer would materially change the next move. Give a useful provisional answer while evidence is incomplete.
 
@@ -15,11 +15,11 @@ The method has eleven connected stages. Read the reference for the part of the p
 - [Evidence, case, and opportunities](references/case-and-opportunities.md): stages 5–8, from program analogs and costs to funding routes and qualified prospects.
 - [Portfolio, roadmap, and refresh](references/portfolio-and-roadmap.md): stages 9–11, from choices and channel goals to an owned plan, board memo, and subsequent revisions.
 
-## Use the v3 prompt library
+## Use the strategy prompt library
 
-Read the [v3 prompt library](references/v3-prompts/index.md) when drafting or improving a strategy. It is generated directly from v3's maintained stage profiles, reusable prompt modules, shared strategy context, Fast Intake family, and six section helpers. Select the relevant stage and linked task module; for a first strategy use shared context plus Fast Intake, and for a chapter revision use the matching section helper. Use available evidence and accepted user decisions to fill context; leave unavailable inputs as explicit gaps. Never paste unresolved app placeholders into the deliverable.
+Read the [strategy prompt library](references/strategy-prompts/index.md) when drafting or improving a strategy. It carries the Azimuth Strategy Framework's stage profiles, reusable prompt modules, shared strategy context, fast-intake prompts, and six section helpers. Select the relevant stage and linked task module; for a first strategy use shared context plus fast intake, and for a chapter revision use the matching section helper. Use available evidence and accepted user decisions to fill context; leave unavailable inputs as explicit gaps. Never paste unresolved app placeholders into the deliverable.
 
-Apply the Host/MCP adaptation at the top of each reference. These are research and drafting methods, not access to the v3 application, its database, inactive UI features or private validation ledger. Put copy-ready organizational prose in the draft, and show provisional candidates, limitations and source checks separately in the conversation. Do not conceal uncertainty because the original app kept metadata outside the document. Respect this connection's actual capabilities and existing goal-calibration rules.
+Apply the Host/MCP adaptation at the top of each reference. These are research and drafting methods, not access to the strategy application, its database or its stored reviews. Put copy-ready organizational prose in the draft, and show provisional candidates, limitations and source checks separately in the conversation. Do not conceal uncertainty merely because the method keeps review metadata outside the document. Respect this connection's actual capabilities and existing goal-calibration rules.
 
 For any numeric goal, portfolio or staffing recommendation, read [Goal calibration](references/goal-calibration.md). Keep peer ambition, solicitation volume, commitments and in-horizon cash separate; construct a conditional first-year scenario from access, workload and payment timing. When renewal cash, access and capacity are unknown, do not recommend a numeric first-year goal, even under the label provisional or planning case. Recommend the initial work and the decision date instead. A numeric scenario requires an explicit ask/conversion/payment construction; historical contributions are not confirmed next-year cash.
 

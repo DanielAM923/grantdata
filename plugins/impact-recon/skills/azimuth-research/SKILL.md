@@ -13,11 +13,11 @@ Explain the evidence at the same level the tool supports:
 - Grant history does not show an open application, a warm introduction, or current strategic fit. Say when those items need separate verification.
 - A paper result identifies a source; inspect the linked paper before claiming a specific finding.
 
-Give the user a concise answer, name the selected entities and years, link source-bearing records, and state the one or two material coverage limits. Do not use private engagement files or infer private relationships from public graph paths.
+Give the user a concise answer, name the selected entities and years, link source-bearing records, and state the one or two material coverage limits. Do not use private files or infer private relationships from public graph paths.
 
 This MCP search covers organization names and paper titles. If a longer phrase returns no match, retry the core entity name. Use the MCP result to identify the entity, known relationships, source links, and exact coverage gap. It is a starting point for research, not the only source the host assistant may use.
 
-When the user asks about mission, programs, current status, or another claim that `fetch` cannot establish, use the host assistant's own web search if it is available. Search with the resolved legal name and EIN, then inspect an official organization or funder page, filing, or other primary source that speaks to the claim. A graph path, Perplexity discovery result, or website link can guide the query, but its summary is not confirmation. Cite the page actually checked, distinguish its date from historical MCP observations, and note any conflict. If web search is unavailable or no suitable source is found, give the useful MCP findings and mark the claim unverified.
+When the user asks about mission, programs, current status, or another claim that `fetch` cannot establish, use the host assistant's own web search if it is available. Search with the resolved legal name and EIN, then inspect an official organization or funder page, filing, or other primary source that speaks to the claim. A graph path, third-party discovery result, or website link can guide the query, but its summary is not confirmation. Cite the page actually checked, distinguish its date from historical MCP observations, and note any conflict. If web search is unavailable or no suitable source is found, give the useful MCP findings and mark the claim unverified.
 
 For cohort or program-role questions, do not classify an organization from its name, NTEE, website URL, or grant rows alone. Check a program-specific source with native web search when possible; otherwise say the program evidence is missing.
 

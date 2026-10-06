@@ -1,11 +1,8 @@
-Generated from the maintained v3 source; regenerate with scripts/mcp/build_research_library.py.
+Adapted from the Azimuth Strategy Framework prompt library.
 
 ## Host/MCP adaptation
 
-Use the research method below with this connection's actual catalog and the user's available conversation/artifact context. App placeholders, closed schemas, Neon state, job planes, UI actions, provider policies and revision receipts are source-app contracts, not capabilities or instructions to execute them here. Do not invent their presence or require their setup. Use the host assistant's native research for current primary sources. Return useful prose unless the user requests a schema. Separate copy-ready strategy from supporting analysis, evidence gaps and provisional candidates, keeping both visible to the user; no private metadata store is implied. Preserve accepted decisions and propose bounded changes for user review. Inactive/deferred source prompts supply drafting methods only, not active v3 features. Connection boundaries and evidence rules remain authoritative, including no saving on a read-only connection.
-
-Source: `strategy_app/v3/agent/strategy-prompt-family/fast-intake-case-and-opportunities.v1.md`
-SHA-256: `2b6fff7bc9252d6ee7b3c06ce3a8776e422579ce6464fbb7aff46f180da54632`
+Use the method below with this connection's actual catalog and the user's available conversation and document context. Placeholders, schemas, stored state, job steps, interface actions and revision receipts mentioned in the text belong to the strategy application, not to this connection; do not invent their presence or require their setup. Use the host assistant's native research for current primary sources. Return useful prose unless the user requests a schema. Separate copy-ready strategy from supporting analysis, evidence gaps and provisional candidates, keeping both visible to the user. Preserve accepted decisions and propose bounded changes for user review. Prompts for inactive features supply drafting methods only. Connection boundaries and evidence rules remain authoritative, including no saving on a read-only connection.
 
 # Fast Intake — Case and Opportunities
 
