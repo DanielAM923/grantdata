@@ -24,3 +24,19 @@ For cohort or program-role questions, do not classify an organization from its n
 Choose the focused workflow for the next job: `entity-evidence` for identity; `peer-funding-comparison` for selected peers/benchmarks; `issue-to-funding-map` for an issue landscape; `program-evidence` for studies and analogs; `funder-review` for current fit/access; `research-packet` for an artifact; `fundraising-strategy-process` for decisions across the whole process. The same guides are retrievable through `list_research_workflows` / `get_research_workflow` when exposed.
 
 For conflicts, new discoveries and whole-org research use [research review](references/research-review.md). For any retain request follow [connection boundaries](references/connection-boundaries.md). Never assume a save or graph refresh happened from instructions alone.
+
+## In Claude
+
+In Claude Code the tools appear as `mcp__impact-recon__<tool>`; in claude.ai they sit under the Impact Recon Alpha connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+
+Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
+
+Impact Recon returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+
+When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
+
+In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
+
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Impact Recon.
+
+Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.

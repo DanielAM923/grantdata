@@ -42,3 +42,21 @@ At each turn, give the strongest supportable working position, the source or ass
 Use Azimuth to augment the evidence, and use the host assistant's own research and document abilities for sources outside its coverage. Retrieve public information before asking the user to find it. Ask the user for private capacity, costs, relationships, or judgments that materially change the plan. When asked for recommendations, make a provisional choice with a reason and assumptions; do not end with an unchosen menu. Mark decisions as accepted only when the user accepts them.
 
 Keep accepted peers, set-asides, chosen lanes, and reasons legible so follow-ups can revise them. Follow connection boundaries rather than assuming a workspace/inbox exists. Private strategic decisions stay in the requested artifact/conversation; label their provenance and keep them out of public graph claims.
+
+## In Claude
+
+In Claude Code the tools appear as `mcp__impact-recon__<tool>`; in claude.ai they sit under the Impact Recon Alpha connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+
+Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
+
+Impact Recon returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+
+When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
+
+In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
+
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Impact Recon.
+
+Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.
+
+Read the strategy prompt references as method, then draft in prose. Do not reproduce application placeholders or schemas in the deliverable.

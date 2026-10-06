@@ -14,3 +14,19 @@ Find direct and adjacent implementation analogs on official program pages, evalu
 Use issue tools when present for candidate discovery, followed by source verification. Keep ambiguous EINs unresolved. If no paper/program graph traversal is exposed, say the named participants came from original-source reading, then resolve their identities separately.
 
 Produce a concise evidence/analog table and a provisional pilot concept: learning question, actual model, partner requirements, implementation and staffing needs, budget basis, baseline/outcome measures, replication deliverable and gaps. Distinguish someone doing similar work from someone willing to pay for this applicant. For the broader case or proposal use `research-packet`; for current supporter qualification use `funder-review`.
+
+## In Claude
+
+In Claude Code the tools appear as `mcp__impact-recon__<tool>`; in claude.ai they sit under the Impact Recon Alpha connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+
+Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
+
+Impact Recon returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+
+When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
+
+In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
+
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Impact Recon.
+
+Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.

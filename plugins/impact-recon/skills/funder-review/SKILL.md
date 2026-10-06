@@ -14,3 +14,21 @@ Build an account row with program/instrument; applicant/geography/activity fit; 
 For public bridge, DAF/donor or housing-finance research read [public routes and capital](references/public-routes-and-capital.md). Those methods add source-backed leads, not warm relationships. Prioritize an application or outreach only when route and case fit are supported; otherwise prioritize the missing checks. Include the applicant's capacity and timing before proposing a solicitation plan.
 
 For a roster, preserve unresolved entities and material blockers in a short queue. Follow [research review](../azimuth-research/references/research-review.md) for conflicts and explicitly requested enrichment. Native research supplies current checks; the MCP does not silently call another web-search provider.
+
+## In Claude
+
+In Claude Code the tools appear as `mcp__impact-recon__<tool>`; in claude.ai they sit under the Impact Recon Alpha connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+
+Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
+
+Impact Recon returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+
+When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
+
+In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
+
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Impact Recon.
+
+Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.
+
+Fetch each funder's current guidelines or program page and cite its URL and the date checked. Keep warehouse year, page publication date and check date distinct in the account row.

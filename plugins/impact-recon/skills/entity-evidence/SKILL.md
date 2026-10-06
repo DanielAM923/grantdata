@@ -18,3 +18,19 @@ The current profile does not supply mission or program evidence. Do not label an
 For current prospects, applications, investments, or staff, use native web search to inspect the funder's own current pages or primary transaction documents when available. Do not upgrade a historical grant edge or a search-summary lead into a current claim. Keep what Azimuth observed separate from what the web source confirms.
 
 The organization evidence card is a compact way to inspect the result. Keep the written answer useful if the card is unavailable, with the EIN, relevant years, available source links, and one material coverage limit.
+
+## In Claude
+
+In Claude Code the tools appear as `mcp__impact-recon__<tool>`; in claude.ai they sit under the Impact Recon Alpha connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+
+Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
+
+Impact Recon returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+
+When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
+
+In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
+
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Impact Recon.
+
+Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.

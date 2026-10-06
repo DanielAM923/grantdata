@@ -18,3 +18,21 @@ For each candidate:
 For a **landscape or published shortlist**, review a known-organization seed for omissions, inspect a sample across routes and ranks for false positives, and check whether federated chapters or broad parents dominate the result. Report the sample, misses, and limitations; a retrieval cap is not a complete universe. If the gate is weak, present a smaller reviewed set and a research queue. Reclassify recipients found through funder expansion with the same steps before adding them. The current MCP supplies bounded candidate routes and funding observations; source review and coverage testing still require the host's research capabilities and human judgment.
 
 Explain the decision in ordinary language: “This group directly serves the requested population here,” “this larger organization runs a relevant program,” or “we found a possible connection but have not confirmed it.” Never turn a candidate list into a claim that all listed organizations are equivalent prospects.
+
+## In Claude
+
+In Claude Code the tools appear as `mcp__impact-recon__<tool>`; in claude.ai they sit under the Impact Recon Alpha connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+
+Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
+
+Impact Recon returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+
+When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
+
+In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
+
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Impact Recon.
+
+Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.
+
+Run per-candidate checks in parallel subagents, one candidate each. Return one table: candidate, role class, geography basis, disposition, source and check date, missing check.
