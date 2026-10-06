@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "impact-recon": {
+    "grantdata": {
       "type": "http",
       "url": "https://emerald-mcp.redbeach-93eee11c.eastus.azurecontainerapps.io/mcp-public"
     }

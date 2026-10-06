@@ -1,12 +1,14 @@
 {
-  "name": "impact-recon",
-  "owner": { "name": "Azimuth Analysis" },
-  "description": "Impact Recon alpha: read-only nonprofit, funding and research collections over MCP, with nine research guides for Claude.",
+  "name": "grantdata",
+  "owner": {
+    "name": "Azimuth Analysis"
+  },
+  "description": "Grant Data alpha: read-only nonprofit, funding and research collections over MCP, with nine research guides for Claude.",
   "plugins": [
     {
-      "name": "impact-recon",
-      "source": "./plugins/impact-recon",
-      "description": "Read-only Impact Recon MCP tools plus nine nonprofit research guides. Early research tool; check the linked evidence."
+      "name": "grantdata",
+      "source": "./plugins/grantdata",
+      "description": "Read-only Grant Data MCP tools plus nine nonprofit research guides. Early research tool; check the linked evidence."
     }
   ]
 }
