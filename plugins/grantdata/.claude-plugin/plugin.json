@@ -1,7 +1,7 @@
 {
   "name": "grantdata",
   "version": "0.5.2",
-  "description": "Grant Data alpha: read-only nonprofit, funding and research collections over remote MCP, with nine research guides. Early research tool; check linked evidence.",
+  "description": "GrantData alpha: read-only nonprofit, funding and research collections over remote MCP, with nine research guides. Early research tool; check linked evidence.",
   "author": {
     "name": "Azimuth Analysis"
   },

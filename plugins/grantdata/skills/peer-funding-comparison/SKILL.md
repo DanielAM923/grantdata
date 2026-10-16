@@ -9,6 +9,10 @@ Read [shared evidence rules](../azimuth-research/references/evidence-rules.md). 
 
 Resolve the focal organization and each chosen peer with `search` and `fetch`. Use `find_peer_funders` only when the user named the peers or they were clearly selected earlier in the conversation. If the user has only a strategy or a vague “organizations like us,” ask for the peer set or explain that this version cannot yet verify a comparable cohort. Keep close operating peers distinct from broader reference models when the user supplied both; do not imply they are equivalent.
 
+Classify each named entity's role before interpreting a result. A peer nonprofit is an organization doing comparable work; do not evaluate it as a prospective funder, ask for its application rules, or call its incoming supporters its own grants to others. Some peers also make grants, but that requires separate outgoing-grant evidence. If the focal organization has few or no observed inbound edges, compare two already selected peers with visible histories and state that the focal organization's coverage is thin. Absence of an FCC-style focal edge is a data-coverage limit, not a failed overlap test or evidence that the organization lacks supporters.
+
+`find_peer_funders` takes nonprofit EINs and reports funders observed for the selected peers. It does not directly compare two foundations' grantee portfolios. For a request to compare two funders, resolve and classify those funders first; inspect each one's outgoing records through a supported read path if available, with its caps and source limits. Never pass two foundation EINs as focal and peer merely to force a result from this tool.
+
 Read the comparison as historical grant observations. Report the selected peers, observed years, overlapping funders, and whether a focal edge was observed. “Not observed here” means only that the selected warehouse path did not return that edge. The recorded funder role can include an operating partner or intermediary. Linked filings are examples for a pair and do not validate the aggregate total.
 
 Treat a missing `funder_type` as an unresolved role. Warehouse year and example filing year are separate; a mismatch cannot verify aggregate amount/recency. Use native primary sources to check pass-through or donation roles. For retain requests follow [connection boundaries](../azimuth-research/references/connection-boundaries.md); an unavailable save becomes a conversation review note, not a claimed graph update.
@@ -21,17 +25,17 @@ The peer table helps inspect rows and sources. In prose, include the strongest o
 
 ## In Claude
 
-In Claude Code the tools appear as `mcp__grantdata__<tool>`; in claude.ai they sit under the Grant Data connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
+In Claude Code the tools appear as `mcp__grantdata__<tool>`; in claude.ai they sit under the GrantData connector. Every tool is read-only, so call them freely. There is no save tool on this connection; keep findings in the answer.
 
 Use Claude's native web search and page fetch for currentness checks and original sources. Fetch the page you cite; a search snippet is a lead.
 
-Grant Data returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
+GrantData returns structured data for a text answer. Render comparisons as Markdown tables yourself; do not wait for an app panel.
 
 When the plugin is installed, the guides are already local skills. Call `get_research_workflow` only for a reference you do not have or to confirm the deployed version.
 
 In Claude Code, when several candidates need the same verification, delegate one candidate per parallel subagent with the same rubric and question definition, then collect one disposition table. Keep the final judgment in the main thread.
 
-Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to Grant Data.
+Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code write a dated Markdown file into the project and say where it is. State that nothing was saved to GrantData.
 
 Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.
 

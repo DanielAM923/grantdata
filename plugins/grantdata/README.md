@@ -1,6 +1,6 @@
-# Grant Data — Claude plugin (alpha 0.5.2)
+# GrantData — Claude plugin (alpha 0.5.2)
 
-Read-only remote MCP (`https://emerald-mcp.redbeach-93eee11c.eastus.azurecontainerapps.io/mcp-public`), no sign-in, plus nine research guides as Claude skills. Early research tool: results may be incomplete or inaccurate, so check the linked evidence. Shared alpha usage limits apply. Saving and graph edits are unavailable.
+Read-only remote MCP (`https://mcp.grantdata.org/mcp-public`), no sign-in, plus nine research guides as Claude skills. Early research tool: results may be incomplete or inaccurate, so check the linked evidence. Shared alpha usage limits apply. Saving and graph edits are unavailable.
 
 ## Install in Claude Code
 
@@ -12,7 +12,7 @@ claude plugin install grantdata@grantdata
 Tools only, without the skills:
 
 ```bash
-claude mcp add --transport http --scope user grantdata https://emerald-mcp.redbeach-93eee11c.eastus.azurecontainerapps.io/mcp-public
+claude mcp add --transport http --scope user grantdata https://mcp.grantdata.org/mcp-public
 ```
 
 Developing from a checkout: `claude --plugin-dir <this directory>`.
