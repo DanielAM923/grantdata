@@ -31,4 +31,8 @@ Deliverables: in claude.ai use an Artifact or Doc for a packet; in Claude Code w
 
 Keep a claim/source table in the answer. Mark each claim observed, user-stated, inferred, recommended or unknown.
 
+For warehouse queries through any other tool: `grant_edges` is a relationship rollup over the row lanes (Schedule I, spider), never a third lane; sum the row lanes, deduped by funder and recipient EIN. `kg_nodes` joins on `node_id`, not `ein`.
+
+When a table cell shows a funder → recipient arrow, copy the direction from the tool payload's funder and recipient fields; do not infer it from the order names appear in the prompt.
+
 Fetch each funder's current guidelines or program page and cite its URL and the date checked. Keep warehouse year, page publication date and check date distinct in the account row.

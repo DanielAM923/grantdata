@@ -8,6 +8,8 @@ Separate identity, historical payment, program role, current fit, eligibility, a
 
 For material claims retain the source title/URL, source date or filing year, passage/page/section, date checked, identity, and whether the claim is observed, user-stated, inferred, recommended or unknown. Cite the original source actually read. Model summaries and search snippets are leads. Deduplicate the same source before treating it as corroboration. Null is unknown, not zero. Say “not found on this path” rather than “does not exist.”
 
+Read amounts by their grain. Pair rows carry `pair_quality` and a `grain`: a per-grant row and a pair aggregate are different units, and a pair with “no single filing shown” has no one filing behind its amount, so do not cite a filing for it. Never add a relationship rollup (`grant_edges`) to the record rows it summarizes; it indexes the same grants, so the sum counts them twice. In warehouse work, `kg_nodes` has no `ein` column: join on `node_id` (the nine-digit EIN for nonprofit and funder nodes, normalized on both sides).
+
 Keep a short claim/source table when evidence is complex. Produce a useful answer at its honest maturity; ask for private capacity, costs, relationships or a decision only when it changes the next move. Retrieve available public information first. Client-specific examples and numeric ramps are not general defaults.
 
 Read [connection boundaries](connection-boundaries.md) for saving and tool availability. Research instructions do not grant new access or permission to send messages, submit applications, schedule work or publish graph facts.
